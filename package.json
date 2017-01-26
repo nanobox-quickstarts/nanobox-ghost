@@ -1,0 +1,15 @@
+{
+  "name": "nanobox-blog",
+  "version": "0.0.1",
+  "description": "The Nanobox Blog",
+  "main": "app.js",
+  "author": "Scott Anderson",
+  "license": "MIT",
+  "dependencies": {
+    "ghost": "^0.11.4",
+    "pg": "^6.1.2"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
