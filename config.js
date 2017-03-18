@@ -24,6 +24,10 @@ config = {
             },
             debug: false
         },
+        
+        paths: {
+            contentPath: '/app/content/')
+        },
 
         server: {
             host: '0.0.0.0',
@@ -81,7 +85,7 @@ config = {
         // #### Paths
         // Specify where your content directory lives
         paths: {
-            contentPath: path.join(__dirname, '/content/')
+            contentPath: '/app/content/')
         }
     },
 
