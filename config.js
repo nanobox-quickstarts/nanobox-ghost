@@ -26,7 +26,7 @@ config = {
         },
         
         paths: {
-            contentPath: '/app/content/')
+            contentPath: '/app/content/'
         },
 
         server: {
@@ -85,7 +85,7 @@ config = {
         // #### Paths
         // Specify where your content directory lives
         paths: {
-            contentPath: '/app/content/')
+            contentPath: '/app/content/'
         }
     },
 
