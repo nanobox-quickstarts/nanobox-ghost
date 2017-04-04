@@ -48,3 +48,6 @@ yarn ls
 # and your code is mounted
 ls
 ```
+
+## Running in Production
+This repo is pre-configured to run in production, however you will need to update the production url defined in the `config.js` to match the url you intend to use in production. Nanobox provides app-urls for all apps using the pattern `appname.nanoapp.io`. You're welcome to use that or your own [custom domain](https://docs.nanobox.io/domains-networking/custom-domains/).
