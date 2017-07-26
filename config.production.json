@@ -1,5 +1,5 @@
 {
-    "url": "https://andyeskridge.com",
+    "url": "http://blog.nanoapp.io",
     "database": {
             "client": "mysql",
             "connection": {
@@ -12,6 +12,27 @@
     },
     "server": {
         "host": "0.0.0.0",
-        "port": 2368
+        "port": 8080
+    },
+    "logging": {
+        "path": "content/logs",
+        "level": "info",
+        "rotation": {
+            "enabled": true,
+            "count": 15,
+            "period": "1d"
+        },
+        "transports": ["stdout", "file"]
+    },
+    "mail": {
+        "transport": "SMTP",
+        "options": {
+            "service": "Mailgun",
+            "auth": {
+                "user": "",
+                "pass": ""
+            }
+
+        }
     }
 }

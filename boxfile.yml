@@ -2,16 +2,18 @@ run.config:
   engine: nodejs
   engine.config:
     runtime: nodejs-6.9
-  extra_packages:
-    - nginx
 
 web.main:
   start:
-    nginx: nginx -c /app/config/nginx.conf
     ghost: yarn start --production
   network_dirs:
     data.storage:
+      - content/adapters
+      - content/apps
+      - content/data
       - content/images
+      - content/logs
+      - content/themes
 
 data.db:
   image: nanobox/mysql:5.6
