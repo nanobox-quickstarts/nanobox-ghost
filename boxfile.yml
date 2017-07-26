@@ -14,7 +14,7 @@ web.main:
       - content/images
 
 data.db:
-  image: nanobox/postgresql:9.4
+  image: nanobox/mysql:5.6
 
 data.storage:
   image: nanobox/unfs:0.9
