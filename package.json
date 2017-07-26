@@ -11,6 +11,7 @@
     "pg": "^7.0.2"
   },
   "scripts": {
+    "prestart": "knex-migrator init",
     "start": "node app.js"
   }
 }
