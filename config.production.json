@@ -1,5 +1,5 @@
 {
-    "url": "http://ghost.nanoapp.io",
+    "url": "https://andyeskridge.com",
     "database": {
             "client": "mysql",
             "connection": {
