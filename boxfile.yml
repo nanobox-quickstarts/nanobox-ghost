@@ -13,7 +13,6 @@ web.main:
       - content/data
       - content/images
       - content/logs
-      - content/themes
 
 data.db:
   image: nanobox/mysql:5.6

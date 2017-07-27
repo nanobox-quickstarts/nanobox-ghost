@@ -7,8 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "ghost": "^1.0.0",
-    "knex-migrator": "^2.1.1",
-    "pg": "^7.0.2"
+    "knex-migrator": "^2.1.1"
   },
   "scripts": {
     "prestart": "knex-migrator init",

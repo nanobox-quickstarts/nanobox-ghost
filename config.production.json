@@ -8,14 +8,14 @@
             }
         },
     "paths": {
-      "contentPath": "content/"
+      "contentPath": "/app/content/"
     },
     "server": {
         "host": "0.0.0.0",
         "port": 8080
     },
     "logging": {
-        "path": "content/logs",
+        "path": "/app/content/logs",
         "level": "info",
         "rotation": {
             "enabled": true,
