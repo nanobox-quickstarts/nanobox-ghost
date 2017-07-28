@@ -1295,9 +1295,9 @@ ghost-storage-base@0.0.1:
   dependencies:
     moment "^2.17.1"
 
-ghost@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/ghost/-/ghost-1.0.0.tgz#4f31646b6246bfd1d8974cf44bf9eae9a9bad086"
+ghost@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/ghost/-/ghost-1.1.0.tgz#72ceb07515d00d8c4993edd2cbb06c0e2f72f2cb"
   dependencies:
     amperize "0.3.4"
     archiver "1.3.0"
@@ -1325,7 +1325,7 @@ ghost@^1.0.0:
     ghost-ignition "2.8.11"
     ghost-storage-base "0.0.1"
     glob "5.0.15"
-    gscan "1.1.4"
+    gscan "1.1.5"
     html-to-text "3.3.0"
     icojs "0.7.2"
     image-size "0.5.5"
@@ -1454,9 +1454,9 @@ graceful-fs@^4.1.0, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.1.9:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz#4cafad76bc62f02fa039b2f94e9a3dd3a391a725"
 
-gscan@1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/gscan/-/gscan-1.1.4.tgz#0658159ef54736b8f6fe8bd56958a44cb79c0578"
+gscan@1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/gscan/-/gscan-1.1.5.tgz#76d524339c70c9cdcd71049b4da1b89140888670"
   dependencies:
     bluebird "3.4.6"
     chalk "1.1.1"
