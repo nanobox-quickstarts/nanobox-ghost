@@ -5,3 +5,4 @@ node_modules
 .yarn
 content/images/*
 content/logs/*
+content/data/*

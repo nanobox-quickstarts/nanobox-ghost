@@ -6,11 +6,11 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "ghost": "^1.1.0",
-    "knex-migrator": "^2.1.1"
+    "ghost": "^1.3.0",
+    "knex-migrator": "^2.1.4"
   },
   "scripts": {
-    "prestart": "knex-migrator init",
+    "prestart": "knex-migrator init; knex-migrator migrate",
     "start": "node app.js"
   }
 }
