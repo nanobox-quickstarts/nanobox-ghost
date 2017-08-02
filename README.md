@@ -29,7 +29,7 @@ nanobox run yarn start
 
 ## Check it Out
 
-Visit your app at <a href="http://ghost.dev:2368" target="\_blank">ghost.dev:2368</a>
+Visit your app at <a href="http://ghost.dev:8080" target="\_blank">ghost.dev:8080</a>
 
 ## Explore
 
@@ -50,4 +50,4 @@ ls
 ```
 
 ## Running in Production
-This repo is pre-configured to run in production, however you will need to update the production url defined in the `config.js` to match the url you intend to use in production. Nanobox provides app-urls for all apps using the pattern `appname.nanoapp.io`. You're welcome to use that or your own [custom domain](https://docs.nanobox.io/domains-networking/custom-domains/).
+This repo is pre-configured to run in production, however you will need to update the production url defined in the `config.production.json` to match the url you intend to use in production. Nanobox provides app-urls for all apps using the pattern `appname.nanoapp.io`. You're welcome to use that or your own [custom domain](https://docs.nanobox.io/domains-networking/custom-domains/).

@@ -1,0 +1,37 @@
+{
+    "url": "http://ghost.dev",
+    "database": {
+            "client": "mysql",
+            "connection": {
+                "database": "gonano",
+                "charset": "utf8"
+            }
+        },
+    "paths": {
+      "contentPath": "/app/content/"
+    },
+    "server": {
+        "host": "0.0.0.0",
+        "port": 8080
+    },
+    "logging": {
+        "path": "/app/content/logs",
+        "level": "info",
+        "rotation": {
+            "enabled": true,
+            "count": 15,
+            "period": "1d"
+        },
+        "transports": ["stdout", "file"]
+    },
+    "mail": {
+        "transport": "SMTP",
+        "options": {
+            "service": "Mailgun",
+            "auth": {
+                "user": "",
+                "pass": ""
+            }
+        }
+    }
+}

@@ -4,3 +4,5 @@ node_modules
 *.log
 .yarn
 content/images/*
+content/logs/*
+content/data/*
